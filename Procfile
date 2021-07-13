@@ -1,0 +1,1 @@
+web: vendor/bin/nicoles-website-php-apache2 public/

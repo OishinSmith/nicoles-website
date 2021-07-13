@@ -1,5 +1,6 @@
 {
     "name": "laravel/laravel",
+    "post-install-cmd": ["ln -sr storage/app/public public/storage"],
     "type": "project",
     "description": "The Laravel Framework.",
     "keywords": ["framework", "laravel"],

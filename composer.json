@@ -1,6 +1,5 @@
 {
     "name": "laravel/laravel",
-    "post-install-cmd": ["ln -sr storage/app/public public/storage"],
     "type": "project",
     "description": "The Laravel Framework.",
     "keywords": ["framework", "laravel"],
@@ -44,6 +43,9 @@
         ],
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
+        ],
+        "post-install-cmd": [
+            "ln -sr storage/app/public public/storage"
         ]
     },
     "extra": {
